@@ -1,0 +1,104 @@
+body {
+    background-image: url("norway.jpg");
+    background-color: rgba(19, 7, 31, 0.267);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-color: #162977ba;
+    color: rgb(20, 7, 37);
+    font-size: 1.5rem;
+     
+
+}
+
+.container{
+    
+    background-color: rgba(19, 7, 31, 0.267);
+    
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-color: rgba(19, 7, 31, 0.267);
+}
+.title{
+    position: absolute;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.asal{
+    background-color: rgba(38, 184, 82, 0.425);
+}
+
+
+.thead {
+    margin: 50px auto;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 1200;
+    font-variant: small-caps;
+    font-size:1.4vw;
+}
+
+.tbody{
+
+    margin: 50px auto;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size:1.1vw;
+}
+
+table, th, td {
+    border-collapse: collapse;
+     /* border: 1px solid #000; */
+}
+
+th, td {
+    padding: 5px;
+}
+
+
+.todo-list {
+    grid-area: active;
+  --spacer: 1rem;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  font-size: 10px;
+  font-family: "Times New Roman", Times, serif;
+   
+} 
+
+.thead{
+    background-color: rgb(12, 153, 129);
+}
+
+.todo-header {
+    font-size: 10px;
+  background:rgba(19, 7, 31, 0.267);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+.todo-body {
+    padding: var(--spacer);
+    
+    background: rgba(19, 7, 31, 0.267);
+  }
+
+.list-title {
+  margin: 0 1em 0 0;
+}
+
+.task-count {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+.new-task-creator .create {
+    color: var(--clr-primary);
+  }
